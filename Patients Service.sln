@@ -5,6 +5,20 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patients Service", "Patients Service\Patients Service.csproj", "{05BA557B-E4E0-43EA-8DAC-9BB845265905}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientGateway", "..\ClientGateway\ClientGateway.csproj", "{18F76B39-3B7B-4FEE-86CD-835759B8D71F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toca.Core.Service.ClientGateway", "D:\Personal\Repos\ClientGateway\Toca.Core.Service.ClientGateway\Toca.Core.Service.ClientGateway.csproj", "{6CF9C50F-E44B-4B22-AFDE-3B4C053BE1E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toca.Core.Service.ServiceRepository", "D:\Personal\Repos\ServiceRepository\Toca.Core.Service.ServiceRepository\Toca.Core.Service.ServiceRepository.csproj", "{7797A1CD-40E5-4249-812C-5B35EBCBFAB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toca.Core.Service.Authentication", "D:\Personal\Repos\AuthenticationService\Toca.Core.Service.Authentication\Toca.Core.Service.Authentication.csproj", "{A214804E-6D66-48E4-918E-EC2F1EB84C3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toca.Service.Helper.Jwt", "D:\Personal\Repos\TocaJsonWebToken\Toca.Service.Helper.Jwt\Toca.Service.Helper.Jwt.csproj", "{F7B53DE6-E973-428C-BCF5-943B82D9405D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toca.Jwt", "D:\Personal\Repos\TocaJwt\Toca.Jwt\Toca.Jwt.csproj", "{DFA341D4-7285-43C4-A318-5A24D8C5CE2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toca.Service.Helper.Log", "D:\Personal\Repos\TocaLog\Toca.Service.Helper.Log\Toca.Service.Helper.Log.csproj", "{12DFEC21-DC78-49CD-9055-EDB84019B1E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +29,34 @@ Global
 		{05BA557B-E4E0-43EA-8DAC-9BB845265905}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05BA557B-E4E0-43EA-8DAC-9BB845265905}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05BA557B-E4E0-43EA-8DAC-9BB845265905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F76B39-3B7B-4FEE-86CD-835759B8D71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F76B39-3B7B-4FEE-86CD-835759B8D71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F76B39-3B7B-4FEE-86CD-835759B8D71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F76B39-3B7B-4FEE-86CD-835759B8D71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF9C50F-E44B-4B22-AFDE-3B4C053BE1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF9C50F-E44B-4B22-AFDE-3B4C053BE1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF9C50F-E44B-4B22-AFDE-3B4C053BE1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF9C50F-E44B-4B22-AFDE-3B4C053BE1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7797A1CD-40E5-4249-812C-5B35EBCBFAB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7797A1CD-40E5-4249-812C-5B35EBCBFAB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7797A1CD-40E5-4249-812C-5B35EBCBFAB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7797A1CD-40E5-4249-812C-5B35EBCBFAB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A214804E-6D66-48E4-918E-EC2F1EB84C3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A214804E-6D66-48E4-918E-EC2F1EB84C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A214804E-6D66-48E4-918E-EC2F1EB84C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A214804E-6D66-48E4-918E-EC2F1EB84C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B53DE6-E973-428C-BCF5-943B82D9405D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B53DE6-E973-428C-BCF5-943B82D9405D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B53DE6-E973-428C-BCF5-943B82D9405D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B53DE6-E973-428C-BCF5-943B82D9405D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA341D4-7285-43C4-A318-5A24D8C5CE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA341D4-7285-43C4-A318-5A24D8C5CE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA341D4-7285-43C4-A318-5A24D8C5CE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA341D4-7285-43C4-A318-5A24D8C5CE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DFEC21-DC78-49CD-9055-EDB84019B1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DFEC21-DC78-49CD-9055-EDB84019B1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DFEC21-DC78-49CD-9055-EDB84019B1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DFEC21-DC78-49CD-9055-EDB84019B1E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
